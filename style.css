@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    background-color: rgb(247, 247, 247);
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*----- ***** NAVBAR ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****  ***** -----*/
+nav {
+    box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.3);
+    background-color: white;
+    margin: 0px;
+    padding: 0 80px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h1 {
+    margin-left: 10px;
+}
+
+.cerchio {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.ovale1 {
+    background-color: black;
+    height: 30px;
+    width: 13px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.ovale2 {
+    background-color: black;
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.nav-right>span:first-of-type {
+    border: 1px solid #757575;
+    border-radius: 20px;
+    margin-inline: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #757575;
+}
+
+.nav-right>span:last-of-type {
+    color: white;
+    background-color: #E25D33;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div i {
+    margin-left: 15px;
+    color: #757575;
+    margin-right: 10px;
+}
+
+
+/* ----- ***** MAIN ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ----- */
+.main-container {
+    display: flex;
+}
+
+
+/*----- collonna destra -----*/
+.main-left {
+    width: 70%;
+    border-right: 2px solid rgb(200, 200, 200);
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.category {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.category h3 {
+    margin: 0;
+    margin-right: 30px;
+    color: #828282;
+    font-size: 15px;
+}
+
+.category .selected-cat {
+    color: black;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 2px;
+
+}
+
+
+.container-post {
+    margin-top: 50px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.img-post img {
+    width: 180px;
+    height: 115px;
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+}
+
+.header-post img {
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header-title span {
+    margin: 0 5px;
+    font-weight: 100;
+
+}
+
+.title-post {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    padding-right: 25px;
+
+}
+
+
+.text-post {
+    color: rgb(130, 130, 130);
+    font-size: 15px;
+    display: block;
+
+}
+
+.footer-post {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: #828282;
+
+}
+
+.footer-post span {
+    font-size: 13px;
+}
+
+.argument {
+    background-color: rgb(227, 227, 227);
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.footer-dx {
+    margin-right: 5px;
+}
+
+.footer-dx span {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+/* ---- colonna sinistra ----- */
+.main-right {
+    width: 30%;
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-left: 30px;
+
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    padding-bottom: 18px;
+}
+
+.twitter-connect-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.twitter-connect-logo i {
+    color: #1DA1F2;
+    font-size: 30px;
+}
+
+.twitter-connect-logo span {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: #828282;
+    margin-right: 6px;
+}
+
+.connect>span:first-of-type {
+    margin-top: 18px;
+    display: inline-block;
+    text-align: center;
+    color: #333333;
+    font-weight: 300;
+    font-size: 18px;
+    width: 300px;
+}
+
+.twitter-connect {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border: 2px solid #828282;
+    width: 160px;
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.twitter-connect i {
+    color: #1DA1F2;
+    padding: 5px;
+}
+
+
+.connect>span:last-of-type {
+    display: inline-block;
+    margin-top: 18px;
+    color: #828282;
+    text-decoration: underline;
+    font-size: small;
+}
+
+
+.main-right>span {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-bottom: 50px;
+
+}
+
+.topics span {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    ;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    font-size: 15px;
+}
+
+.follow {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.follow>span:first-of-type {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.follow img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    margin-bottom: 10px;
+    color: #828282;;
+}
+
+.user div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.user div span:first-of-type {
+    font-weight: bold;
+    color: black;
+}
+
+.user>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    height: 30px;
+    width: 70px;
+    flex-shrink: 0;  
+    border-radius: 25px;
+    border: 1px solid #828282;
+    color: black;
+}
+
+.recently{
+    display: flex;
+    flex-direction: column;
+}
+
+.recently > span:first-of-type {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.recently-header{
+    display: flex;
+    align-items: center;
+}
+
+.recently-header span{
+    display:inline-block;
+}
+
+.recently img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.recently-title{
+    font-weight: bold;
+    display: block;
+    
+}
+
+.recently-footer{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color:#828282;
+}
+
+.recently > div {
+    margin-bottom: 20px;
+}
+
+.recently > span:last-of-type{
+    color:green;
+    font-weight: normal;
+    margin-top:20px;
+    margin-bottom:100px;
+}
+
+.footer-right{
+    margin-bottom: 30px;
+}
+
+.footer-right span{
+    color: #828282;
+    font-size: 13px;
+    display: inline;
+    margin-right: 20px;
+}
